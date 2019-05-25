@@ -1,0 +1,10 @@
+name: fastpy
+channels:
+    - conda-forge
+dependencies:
+    - numba
+    - scikit-image
+    - xtensor-python
+    - matplotlib
+    - jupyter
+    - boost-cpp
