@@ -56,10 +56,10 @@ xt::pyarray<uint64_t> connected_components(const xt::pytensor<bool, 2> & image)
             const int64_t y = coordinate[1] + sy;
 
             // bounds check
-            if(sx < 0 || sx >= shape[0]) {
+            if(x < 0 || x >= shape[0]) {
                 continue;
             }
-            if(sy < 0 || sy >= shape[1]) {
+            if(y < 0 || y >= shape[1]) {
                 continue;
             }
 
